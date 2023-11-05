@@ -1,11 +1,11 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: api-hackutd-raajpatel-dev-tls
+  name: api-x-raajpatel-dev-tls
 spec:
   dnsNames:
-    - api.hackutd.raajpatel.dev
+    - api.x.raajpatel.dev
   issuerRef:
     kind: ClusterIssuer
     name: letsencrypt
-  secretName: api-hackutd-raajpatel-dev-tls
+  secretName: api-x-raajpatel-dev-tls
